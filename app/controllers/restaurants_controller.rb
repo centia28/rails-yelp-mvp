@@ -8,7 +8,6 @@ class RestaurantsController < ApplicationController
   def show
     # Show restaurant
     @reviews = @restaurant.reviews
-    @review = Review.new
   end
 
   def new
